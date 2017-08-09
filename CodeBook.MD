@@ -1,5 +1,5 @@
-##Codebook
--------------------------------------------------------------
+### Codebook
+-----------------------------------------------------------------
 
 The features selected for this database are derived from the accelerometer (Acc) and gyroscope(Gyro) 3-axial('-XYZ' is used to denote 3-axial signals in the X, Y and Z directions) raw signals. These time domain signals were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
@@ -9,8 +9,8 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 
 Multiple observations of these signals were used to compute means(Mean) and standard deviations (StdDev) of variables of the feature vector for each activity and subject. Since there are 6 activities and 30 subjects, tidydat.txt contains 180 rows of values. 
 
-##Complete list of variables in tidydat.txt
------------------------------------------------
+## Complete list of variables in tidydat.txt
+----------------------------------------------------------------
 
 subjectid - an identifier for the person who performed the activity (range: 1 to 30) 
 activitytype - indicates the type of activity performed (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) 
